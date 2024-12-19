@@ -1,0 +1,19 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.47.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "supabase": "^2.1.1"
+  }
+}
